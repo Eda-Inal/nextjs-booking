@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "title": "Free Wifi",
+      "imageSrc": "/explore/wifi.png",
+      "alt": "Free wifi"
+    },
+    {
+      "id": 2,
+      "title": "Restaurant",
+      "imageSrc": "/explore/restaurant.png",
+      "alt": "Open Restaurant"
+    },
+    {
+      "id": 3,
+      "title": "Easy Booking",
+      "imageSrc": "/explore/calendar.png",
+      "alt": "Easy Booking"
+    },
+    {
+      "id": 4,
+      "title": "Beach",
+      "imageSrc": "/explore/beach.png",
+      "alt": "Beach"
+    }
+  ]
+  
