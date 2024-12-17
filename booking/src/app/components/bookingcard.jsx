@@ -8,8 +8,8 @@ import { CiClock2 } from "react-icons/ci";
 
 function Bookingcard() {
     return (
-        <div className='w-3/4 flex mx-auto gap-4'>
-           <div className='w-1/2 h-96 mt-36 sm:mt-28 lg:mt-40 relative z-0 mx-auto bg-white shadow-lg '>
+        <div className='flex mx-auto gap-4 mt-12  h-[500px]  '>
+           <div className='w-1/2  relative z-0 mx-auto bg-white shadow-lg '>
   <div className='relative h-1/2 w-full'>
     <Image
       src={view}
@@ -21,7 +21,7 @@ function Bookingcard() {
     />
   </div>
 
-  <div className='w-full flex flex-col justify-between p-3 h-1/3'>
+  <div className='w-full flex flex-col justify-between p-3 '>
     <div className='text-primary font-medium'>Golden Key Hotel</div>
     <p className='text-xl'>The Most Recommended Hotel In the World</p>
     <p className='text-sm'>
@@ -51,7 +51,7 @@ function Bookingcard() {
     </button>
   </div>
 </div>
-<div className='w-1/2 h-96 mt-36 sm:mt-28 lg:mt-40 relative z-0 mx-auto bg-white shadow-lg '>
+<div className='w-1/2  relative z-0 mx-auto bg-white shadow-lg '>
   <div className='relative h-1/2 w-full'>
     <Image
       src={view}
@@ -63,7 +63,7 @@ function Bookingcard() {
     />
   </div>
 
-  <div className='w-full flex flex-col justify-between p-3 h-1/3'>
+  <div className='w-full flex flex-col justify-between p-3'>
     <div className='text-primary font-medium'>Golden Key Hotel</div>
     <p className='text-xl'>Fine Dining Experience with a View</p>
     <p className='text-sm'>

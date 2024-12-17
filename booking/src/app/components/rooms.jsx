@@ -10,7 +10,7 @@ function RoomBox() {
   return (
     <div className='mt-20 px-5 mx-auto mb-20'>
       <div className='grid grid-cols-1  lg:grid-cols-2 w-full '>
-        <div className='h-72 flex w-full gap-5 bg-white rounded-md'>
+        <div className='h-72 flex w-full gap-5 bg-white rounded-md  shadow-lg  '>
           <div className='w-full h-72 relative'>
             <Image
               src={room}

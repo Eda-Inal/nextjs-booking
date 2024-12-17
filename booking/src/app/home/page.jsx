@@ -51,10 +51,15 @@ function Main() {
                         <Reservation />
                     </div>
                 </div>
-                <div className='w-3/4 h-24 mt-36 sm:mt-28 lg:mt-20 relative z-0 mx-auto'>
+                <div className='w-3/4 mt-36 sm:mt-28 lg:mt-20 relative z-0 mx-auto'>
+                <div>
+                    
+                </div>
         <Explore />
-      </div>
-             <Bookingcard/>
+        <Bookingcard/>
+      </div >
+      
+            
                 <div className='mb-24'>
 
                 </div>
