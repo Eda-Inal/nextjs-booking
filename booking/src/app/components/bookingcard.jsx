@@ -46,7 +46,7 @@ function Bookingcard() {
       </div>
     </div>
 
-    <button className='bg-primary w-40 p-2 rounded-md text-white text-sm mt-4'>
+    <button className='bg-secondary w-40 p-2 rounded-md text-white text-sm mt-4'>
       Reserve your room
     </button>
   </div>
@@ -86,7 +86,7 @@ function Bookingcard() {
       </div>
     </div>
 
-    <button className='bg-primary w-40 p-2 rounded-md text-white text-sm mt-4'>
+    <button className='bg-secondary w-40 p-2 rounded-md text-white text-sm mt-4'>
       Reserve your room
     </button>
   </div>

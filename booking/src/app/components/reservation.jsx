@@ -40,7 +40,7 @@ function Reservation() {
                     <LuUser />
                 </div>
             </div>
-            <button className='rounded-full  w-full   h-10 sm:h-8 lg:h-10  bg-teal-600 text-white text-xl font-bitter' >Find now</button>
+            <button className='rounded-full  w-full   h-10 sm:h-8 lg:h-10  bg-secondary text-white text-xl font-bitter' >Find now</button>
 
         </div>
     )

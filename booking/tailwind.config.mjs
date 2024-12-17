@@ -10,7 +10,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        primary: "#0D9488"
+        primary: "#50352c",
+        secondary : "#577f4b"
       },
       fontFamily: {
         inter: ['var(--font-inter)', 'Arial', 'Helvetica', 'sans-serif'],
