@@ -4,8 +4,8 @@ import Image from "next/image";
 import hotel from "../../../public/hotel.jpg";
 import Reservation from '../components/reservation';
 import Explore from '../components/explore';
-import view from "../../../public/view.jpg";
-import x from "../../../public/x.jpg";
+import Bookingcard from '../components/bookingcard';
+
 
 
 function Main() {
@@ -51,51 +51,10 @@ function Main() {
                         <Reservation />
                     </div>
                 </div>
-                {/* <div className='w-3/4 h-24 mt-36 sm:mt-28 lg:mt-20 relative z-0 mx-auto'>
+                <div className='w-3/4 h-24 mt-36 sm:mt-28 lg:mt-20 relative z-0 mx-auto'>
         <Explore />
-      </div> */}
-                <div className='w-3/4 h-48 mt-36 sm:mt-28 lg:mt-20 relative z-0 mx-auto flex mb-16 font-bitter '>
-                    <div className='w-1/2 h-64 relative'>
-                        <Image
-                            src={view}
-                            alt='hotel'
-                            priority
-                            layout='fill'
-                            objectFit='cover'
-
-                        />
-                    </div>
-
-                    <div className='w-1/2  flex flex-col justify-around p-3 '>
-                        <div >Golden Key Hotel</div>
-                        <p className='text-2xl'>The Most Recomended Hotel In the World</p>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    </div>
-
-
-                </div>
-                <div className='w-3/4 h-48 mt-36 sm:mt-28 lg:mt-20 relative z-0 mx-auto flex mb-16 font-bitter '>
-              
-
-                    <div className='w-1/2  flex flex-col justify-around p-3 '>
-                        <div >Golden Key Hotel</div>
-                        <p className='text-2xl'>The Most Recomended Hotel In the World</p>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    </div>
-                    <div className='w-1/2 h-64 relative'>
-                        <Image
-                            src={x}
-                            alt='hotel'
-                            priority
-                            layout='fill'
-                            objectFit='cover'
-                            objectPosition='top'
-
-                        />
-                    </div>
-
-
-                </div>
+      </div>
+             <Bookingcard/>
                 <div className='mb-24'>
 
                 </div>
