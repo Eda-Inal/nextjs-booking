@@ -58,7 +58,7 @@ function RoomBox() {
               </div>
             </div>
 
-            <button className='bg-primary w-40 px-5 py-2 text-white font-medium font-bitter rounded-md'>Reserve</button>
+            <button className='bg-gradient-to-r from-[#96d782] to-[#577f4b] w-40 px-5 py-2 text-white font-medium font-bitter rounded-md'>Reserve</button>
           </div>
         </div>
       </div>
