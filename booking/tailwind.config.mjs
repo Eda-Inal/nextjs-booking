@@ -17,6 +17,7 @@ export default {
         inter: ['var(--font-inter)', 'Arial', 'Helvetica', 'sans-serif'],
         bitter: ['var(--font-bitter)', 'serif'],
         lora: ['var(--font-lora)', 'serif'],
+        sacramento: ['var(--font-sacramento)', 'cursive'],
       },
     },
   },

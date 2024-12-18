@@ -1,4 +1,4 @@
-import { Inter, Bitter, Lora } from "next/font/google";
+import { Inter, Bitter, Lora,Sacramento ,Dancing_Script } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar";
 const inter = Inter({
@@ -15,6 +15,11 @@ const lora = Lora({
   variable: "--font-lora",
   subsets: ["latin"],
 });
+const sacramento = Sacramento({
+  variable: "--font-sacramento",
+  subsets: ["latin"],
+   weight: "400"
+});
 
 
 
@@ -22,7 +27,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${bitter.variable} ${lora.variable} antialiased`}
+        className={`${inter.variable} ${bitter.variable} ${lora.variable} antialiased ${sacramento.variable}`} 
       >
         <Navbar/>
         {children}

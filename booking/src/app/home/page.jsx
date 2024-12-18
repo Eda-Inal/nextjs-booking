@@ -5,6 +5,7 @@ import hotel from "../../../public/hotel.jpg";
 import Reservation from '../components/reservation';
 import Explore from '../components/explore';
 import Bookingcard from '../components/bookingcard';
+import Food from '../components/food';
 
 
 
@@ -57,6 +58,7 @@ function Main() {
                 </div>
         <Explore />
         <Bookingcard/>
+        <Food/>
       </div >
       
             
