@@ -8,28 +8,31 @@ import { MdOutlineWbSunny } from "react-icons/md";
 
 function RoomBox() {
   return (
-    <div className='mt-20 px-5 mx-auto mb-20'>
-      <div className='grid grid-cols-1  lg:grid-cols-2 w-full '>
-        <div className='h-72 flex w-full gap-5 bg-white rounded-md  shadow-lg  '>
-          <div className='w-full h-72 relative'>
-            <Image
-              src={room}
-              alt='hotel'
-              priority
-              layout='fill'
-              objectFit='cover'
-              objectPosition='top'
+    <div className='mt-12 px-5 mx-auto mb-20 '>
+      <div>
+        <h2 className='text-2xl text-center mb-12  ita'>Elegant Rooms for Every Guest</h2>
+      </div>
+      <div className='grid grid-cols-1  lg:grid-cols-3 w-full gap-3 '>
+        <div className='h-64 flex w-full   bg-white rounded-xl  shadow-lg  '>
+        <div className='w-full h-64 relative rounded-lg overflow-hidden'>
+  <Image
+    src={room}
+    alt='hotel'
+    priority
+    layout='fill'
+    objectFit='cover'
+    objectPosition='top'
+  />
+</div>
 
-            />
-          </div>
-          <div className='flex flex-col  w-full justify-between py-2'>
+          <div className='flex flex-col  w-full justify-between py-2 px-4'>
 
 
 
-            <div className='flex flex-col gap-2'>
-              <div className='text-xl font-medium'>Suit Room</div>
-              <div className='flex gap-3 text-gray-600 items-center'>
-                <div className='flex items-center gap-1'>
+            <div className='flex flex-col gap-3 '>
+              <div className='text-xl font-medium text-primary'>Suit Room</div>
+              <div className='flex gap-3  items-center text-xs'>
+                <div className='flex items-center gap-1 '>
                   <div> <MdOutlineWbSunny /></div>
                   <div>Sunlight</div>
                 </div>
@@ -43,7 +46,7 @@ function RoomBox() {
               </div>
             </div>
 
-            <div className='grid grid-cols-2 gap-4 text-sm text-gray-600 '>
+            <div className='grid grid-cols-2 gap-4 text-xs text-gray-700 '>
               <div className='flex items-center gap-2'>
                 <FaShower /> <span>Shower</span>
               </div>
@@ -58,9 +61,10 @@ function RoomBox() {
               </div>
             </div>
 
-            <button className='bg-gradient-to-r from-[#96d782] to-[#577f4b] w-40 px-5 py-2 text-white font-medium font-bitter rounded-md'>Reserve</button>
+            <button className='bg-gradient-to-r from-[#96d782] to-[#577f4b] w-full px-5 py-2 text-white font-semibold font-bitter rounded-md  shadow-lg text-md'>Reserve</button>
           </div>
         </div>
+        
       </div>
     </div>
   )
