@@ -33,41 +33,47 @@ function Main() {
                 <meta name="twitter:card" content="summary_large_image" />
                 <link rel="canonical" href="https://hotelparadise.example.com" />
             </Head>
-            <main className=' w-full' >
-                <div className='w-full h-[600px] relative '>
+            <main className="w-full">
+
+                <div className="w-full h-[600px] relative">
                     <Image
                         src={hotel}
-                        alt='hotel'
+                        alt="hotel"
                         priority
-                        layout='fill'
-                        objectFit='cover'
+                        layout="fill"
+                        objectFit="cover"
                     />
-                    <div className='absolute top-1/3 sm:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white font-lora'>
-                        <div className='flex flex-col items-center  gap-6'>
-                            <h1 className='text-2xl sm:text-3xl lg:text-4xl mt-12 sm:mt-0 text-center'>Feel Like in Paradise </h1>
-                            <button className='p-2 px-4 border-2 rounded-md text-sm lg:text-lg' >Check the Rooms</button>
+                    <div className="absolute top-1/3 sm:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white font-lora">
+                        <div className="flex flex-col items-center gap-6">
+                            <h1 className="text-2xl sm:text-3xl lg:text-4xl mt-12 sm:mt-0 text-center">
+                                Feel Like in Paradise
+                            </h1>
+                            <button className="p-2 px-4 border-2 rounded-md text-sm lg:text-lg">
+                                Check the Rooms
+                            </button>
                         </div>
-
                     </div>
-                    <div className='absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 w-3/4 shadow-lg z-10'>
+                    <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 w-full px-10 shadow-lg z-10">
                         <Reservation />
                     </div>
                 </div>
-                <div className='w-3/4 mt-36 sm:mt-28 lg:mt-20 relative z-0 mx-auto'>
-                <div>
-                    
-                </div>
-        <Explore />
-        <Bookingcard/>
-<RoomBox/>
-        <Food/>
-      </div >
-      
-            
-                <div className='mb-24'>
 
+
+                <div className="px-10 mt-36 sm:mt-28 lg:mt-20 relative z-0 mx-auto">
+                    <Explore />
+                    <Bookingcard />
                 </div>
+
+
+                <div className="w-full mt-20 overflow-x-auto pl-10 scrollbar-hide">
+                    <RoomBox />
+                    <Food />
+                </div>
+
+
+                <div className="mb-24"></div>
             </main>
+
         </>
 
 
