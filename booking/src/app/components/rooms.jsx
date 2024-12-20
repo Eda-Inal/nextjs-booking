@@ -1,73 +1,53 @@
-import React from 'react'
+import React from "react";
 import room from "../../../public/bed.jpg";
-import Image from 'next/image';
-import { FaLock, FaClock, FaShower } from "react-icons/fa";
-import { IoBedSharp } from "react-icons/io5";
-import { PiSwimmingPool } from "react-icons/pi";
-import { MdOutlineWbSunny } from "react-icons/md";
+import Image from "next/image";
 
 function RoomBox() {
   return (
-    <div className='mt-12 px-5 mx-auto mb-20 '>
+    <div className="mt-12 mx-auto mb-20  sm:p-0">
       <div>
-        <h2 className='text-2xl text-center mb-12  ita'>Elegant Rooms for Every Guest</h2>
+        <h2 className="text-2xl text-center mb-12 ita">
+          Elegant Rooms for Every Guest
+        </h2>
       </div>
-      <div className='grid grid-cols-1  lg:grid-cols-3 w-full gap-3 '>
-        <div className='h-64 flex w-full   bg-white rounded-xl  shadow-lg  '>
-        <div className='w-full h-64 relative rounded-lg overflow-hidden'>
-  <Image
-    src={room}
-    alt='hotel'
-    priority
-    layout='fill'
-    objectFit='cover'
-    objectPosition='top'
-  />
-</div>
-
-          <div className='flex flex-col  w-full justify-between py-2 px-4'>
 
 
-
-            <div className='flex flex-col gap-3 '>
-              <div className='text-xl font-medium text-primary'>Suit Room</div>
-              <div className='flex gap-3  items-center text-xs'>
-                <div className='flex items-center gap-1 '>
-                  <div> <MdOutlineWbSunny /></div>
-                  <div>Sunlight</div>
-                </div>
-                <div className='flex items-center gap-1'>
-                  <div> <PiSwimmingPool /></div>
-                  <div>Sea view</div>
-                </div>
-
-
-
+      <div className="flex overflow-x-auto space-x-4 scrollbar-hide px-4 snap-x snap-mandatory">
+   
+        {[...Array(10)].map((_, index) => (
+          <div
+            key={index}
+            className="relative bg-white shadow-lg flex flex-col w-80 h-96 shrink-0 snap-center"
+          >
+         
+            <div className="relative h-48 w-full">
+              <Image
+                src={room}
+                alt="hotel"
+                priority
+                layout="fill"
+                objectFit="cover"
+                objectPosition="center"
+              />
+            </div>
+ 
+            <div className="p-4 flex flex-col items-center justify-around flex-grow">
+              <p className="text-xl font-thin">Suit Room</p>
+              <p className="text-sm text-gray-500">
+                Far away behind mountains, from the countries
+              </p>
+              <div className="flex items-center justify-center gap-3">
+                <p className="text-yellow-600">$400</p>
+                <button className="p-1 rounded-md text-sm border-2 hover:bg-amber-950 hover:text-white">
+                  Book now
+                </button>
               </div>
             </div>
-
-            <div className='grid grid-cols-2 gap-4 text-xs text-gray-700 '>
-              <div className='flex items-center gap-2'>
-                <FaShower /> <span>Shower</span>
-              </div>
-              <div className='flex items-center gap-2'>
-                <FaLock /> <span>Safe</span>
-              </div>
-              <div className='flex items-center gap-2'>
-                <FaClock />  <span>24/7 Service</span>
-              </div>
-              <div className='flex items-center gap-2'>
-                <IoBedSharp /> <span>Comfortable Bed</span>
-              </div>
-            </div>
-
-            <button className='bg-gradient-to-r from-[#96d782] to-[#577f4b] w-full px-5 py-2 text-white font-semibold font-bitter rounded-md  shadow-lg text-md'>Reserve</button>
           </div>
-        </div>
-        
+        ))}
       </div>
     </div>
-  )
+  );
 }
 
-export default RoomBox
+export default RoomBox;

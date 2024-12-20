@@ -6,6 +6,7 @@ import Reservation from '../components/reservation';
 import Explore from '../components/explore';
 import Bookingcard from '../components/bookingcard';
 import Food from '../components/food';
+import RoomBox from '../components/rooms';
 
 
 
@@ -58,6 +59,7 @@ function Main() {
                 </div>
         <Explore />
         <Bookingcard/>
+<RoomBox/>
         <Food/>
       </div >
       
