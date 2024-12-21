@@ -17,7 +17,7 @@ function RoomBox() {
         {[...Array(10)].map((_, index) => (
           <div
             key={index}
-            className="relative bg-white shadow-lg flex flex-col w-80 h-96 shrink-0 snap-center rounded-md"
+            className="relative bg-white shadow-lg flex flex-col w-80 h-96 shrink-0 snap-center rounded-md transform transition-transform duration-300 hover:scale-105"
           >
          
          <div className="relative h-48 w-full rounded-t-md overflow-hidden">

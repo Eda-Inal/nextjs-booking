@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "title": "Salad",
+        "imageSrc": "/food/salad.jpg",
+        "alt": "Salad",
+        "price": "10",
+         "description":"Refreshing mix of chickpeas, cucumbers, tomatoes, red onions"
+    },
+    {
+        "id": 2,
+        "title": "Pizza",
+        "imageSrc": "/food/pizza.jpg",
+        "alt": "Pizza",
+        "price": "14",
+        "description":"Savory combination of cheese, tomatoes, olives, and fresh herbs."
+    },
+    {
+        "id": 3,
+        "title": "Avocado Salad",
+        "imageSrc": "/food/avacado.jpg",
+        "alt": "Avocaco Salad",
+        "price": "11",
+        "description":"Fresh avocado with tomatoes, cucumbers, and a light dressing."
+    },
+    {
+        "id": 4,
+        "title": "Burger",
+        "imageSrc": "/food/burger.jpg",
+        "alt": "Burger",
+        "price": "15",
+        "description":"Juicy beef patty with lettuce, tomatoes, pickles, and a soft bun."
+    },
+    {
+        "id": 5,
+        "title": "Shrimp",
+        "imageSrc": "/food/shrimp.jpg",
+        "alt": "Shrimp",
+        "price": "12",
+        "description":"Tender shrimp with a zesty mix of lemon, garlic, and fresh herbs"
+    },
+    {
+        "id": 6,
+        "title": "Sushi",
+        "imageSrc": "/food/sushi.jpg",
+        "alt": "Sushi",
+        "price": "14",
+        "description":"Fresh salmon and avocado rolled in seasoned rice with seaweed."
+    },
+    {
+        "id": 7,
+        "title": "Toast",
+        "imageSrc": "/food/toast.jpg",
+        "alt": "Toast",
+        "price": "11",
+        "description":"Crispy toast topped with avocado, tomatoes, and a sprinkle of salt"
+    },
+    {
+        "id": 8,
+        "title": "Waffle",
+        "imageSrc": "/food/waffle.jpg",
+        "alt": "Waffle",
+        "price": "12",
+        "description":"Sweet, fluffy waffle topped with berries and a drizzle of syrup"
+    }
+]
