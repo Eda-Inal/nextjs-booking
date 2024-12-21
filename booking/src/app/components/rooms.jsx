@@ -38,7 +38,7 @@ function RoomBox() {
                {room.description}
               </p>
               <div className="flex items-center justify-center gap-3">
-                <p className="text-yellow-600">${room.price}</p>
+                <p className="text-primary font-semibold">${room.price}</p>
                 <button className="p-1 rounded-md text-sm border-2 hover:bg-amber-950 hover:text-white">
                   Book now
                 </button>

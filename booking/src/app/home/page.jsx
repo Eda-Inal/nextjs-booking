@@ -7,6 +7,7 @@ import Explore from '../components/explore';
 import Bookingcard from '../components/bookingcard';
 import Food from '../components/food';
 import RoomBox from '../components/rooms';
+import view from "../../../public/vieww.jpg";
 
 
 
@@ -38,7 +39,7 @@ function Main() {
 
                 <div className="w-full h-[600px] relative">
                     <Image
-                        src={hotel}
+                        src={view}
                         alt="hotel"
                         priority
                         layout="fill"
