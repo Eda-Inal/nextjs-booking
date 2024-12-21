@@ -7,7 +7,7 @@ import { CiClock2 } from "react-icons/ci";
 
 function Bookingcard() {
   return (
-    <div className="flex overflow-x-auto gap-4 mx-auto mt-12">
+    <div className="flex overflow-x-auto gap-4 mx-auto mt-12 scrollbar-hide">
    {[...Array(5)].map((_, index) => (  
          <div key={index} className="relative bg-white shadow-lg flex flex-col w-96 flex-shrink-0"> 
          <div className="relative h-48 w-full">
