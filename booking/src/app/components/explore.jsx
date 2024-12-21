@@ -6,7 +6,7 @@ function Explore() {
     return (
         <section className='font-bitter '>
 
-            <h2 className='text-2xl text-center  mb-6 lg:mb-12 font-bitter '>Explore Our Hotel Services</h2>
+            <h2 className='text-2xl text-center font-bitter mb-6 '>Explore Our Hotel Services</h2>
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4  '>
                 {exploreData.map((service) => (
                     <article

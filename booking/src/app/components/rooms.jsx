@@ -1,15 +1,14 @@
 import React from "react";
-import room from "../../../public/rooms/room3.jpg"
 import Image from "next/image";
 import roomsData from "../../../public/data/rooms.json"
 
 function RoomBox() {
   return (
-    <div className=" mx-auto mb-20  sm:p-0">
+    <div className=" mx-auto sm:p-0">
       <div>
-        <h2 className="text-2xl text-center mb-12 pr-10">
+        <h3 className="text-2xl text-center mb-12 pr-10">
           Elegant Rooms for Every Guest
-        </h2>
+        </h3>
       </div>
 
 
@@ -39,7 +38,7 @@ function RoomBox() {
               </p>
               <div className="flex items-center justify-center gap-3">
                 <p className="text-primary font-semibold">${room.price}</p>
-                <button className="p-1 rounded-md text-sm border-2 hover:bg-amber-950 hover:text-white">
+                <button className="p-2 rounded-md text-sm border-2 hover:bg-amber-950 hover:text-white">
                   Book now
                 </button>
               </div>

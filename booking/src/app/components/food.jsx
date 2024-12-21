@@ -1,19 +1,16 @@
 import React from "react";
 import Image from "next/image";
-import { FaUtensils } from "react-icons/fa";
 import foodData from "../../../public/data/food-data.json"
+
 
 function Food() {
 
   return (
     <div className="mt-12">
 
-      <div className="flex justify-center gap-5 items-center pr-10">
-        <h5 className="text-3xl font-bitter">Our Restaurant</h5>
-        <span>
-          <FaUtensils />
-        </span>
-      </div>
+   
+        <h4 className="text-2xl text-center">Our Restaurant</h4>
+    
 
 
       <div className="mt-6 overflow-x-auto flex space-x-4 scrollbar-hide snap-x snap-mandatory px-4">

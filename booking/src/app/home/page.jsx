@@ -1,7 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
 import Image from "next/image";
-import hotel from "../../../public/hotel.jpg";
 import Reservation from '../components/reservation';
 import Explore from '../components/explore';
 import Bookingcard from '../components/bookingcard';
@@ -37,7 +36,7 @@ function Main() {
             </Head>
             <main className="w-full">
 
-                <div className="w-full h-[600px] relative">
+                <div className="w-full h-[450px] relative">
                     <Image
                         src={view}
                         alt="hotel"
@@ -47,7 +46,7 @@ function Main() {
                     />
                     <div className="absolute top-1/3 sm:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white font-lora">
                         <div className="flex flex-col items-center gap-6">
-                            <h1 className="text-2xl sm:text-3xl lg:text-4xl mt-12 sm:mt-0 text-center">
+                            <h1 className="text-2xl sm:text-3xl lg:text-4xl mt-12 sm:mt-0 text-center font-bold">
                                 Feel Like in Paradise
                             </h1>
                             <button className="p-2 px-4 border-2 rounded-md text-sm lg:text-lg">
@@ -61,17 +60,19 @@ function Main() {
                 </div>
 
 
-                <div className="px-10 mt-36 sm:mt-28 lg:mt-20 relative z-0 mx-auto">
+                <div className="px-10 mt-36 sm:mt-28 lg:mt-20 relative z-0 mx-auto mb-12">
                     <Explore />
-                    <Bookingcard />
+
                 </div>
 
 
-                <div className="w-full mt-20 overflow-x-auto pl-10 scrollbar-hide">
+                <div className="w-full overflow-x-auto pl-10 scrollbar-hide">
                     <RoomBox />
                     <Food />
                 </div>
-
+                <div className='mt-12 pl-10' >
+                    <Bookingcard />
+                </div>
 
                 <div className="mb-24"></div>
             </main>
