@@ -24,8 +24,8 @@ function RoomBox() {
          <div className="relative h-48 w-full rounded-t-md overflow-hidden">
       <Image
         src={room.imageSrc}
-        alt={room.alt}
-        priority
+        alt={`Luxury room with ${room.description}`}
+        priority={false}
         layout="fill"
         objectFit="cover"
         objectPosition="center"

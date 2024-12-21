@@ -30,6 +30,7 @@ function Food() {
                 className="object-cover"
                 width={96}
                 height={96}
+                priority={false}
               />
             </div>
 

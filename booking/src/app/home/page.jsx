@@ -15,7 +15,8 @@ function Main() {
     return (
         <>
             <Head>
-                <title>Hotel Paradise - Luxury and Comfort</title>
+                <title>Hotel Paradise - Luxury Stay & Beach Views | Book Now</title>
+
                 <meta
                     name="description"
                     content="Welcome to Hotel Paradise, where luxury meets comfort. Explore our premium hotel services, including free WiFi, fine dining, easy booking, and beautiful beach views."

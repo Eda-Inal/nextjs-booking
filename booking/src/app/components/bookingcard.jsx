@@ -14,10 +14,10 @@ function Bookingcard() {
            <Image
              src={view}
              alt="hotel"
-             priority
              layout="fill"
              objectFit="cover"
              objectPosition="top"
+             priority= {false}
            />
          </div>
          <div className="p-4 flex flex-col justify-between flex-grow">
