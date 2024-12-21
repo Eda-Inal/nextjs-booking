@@ -7,7 +7,7 @@ import Explore from '../components/explore';
 import Bookingcard from '../components/bookingcard';
 import Food from '../components/food';
 import RoomBox from '../components/rooms';
-import view from "../../../public/vieww.jpg";
+import view from "../../../public/vieww.webp";
 
 
 
