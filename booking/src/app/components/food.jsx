@@ -24,7 +24,7 @@ function Food() {
               <Image
                 src={item.imageSrc}
                 alt={item.alt}
-                className="object-cover"
+                className="object-cover rounded-full"
                 width={96}
                 height={96}
                 priority={false}
