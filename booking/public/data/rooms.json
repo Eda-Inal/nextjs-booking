@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Luxury Garden Room",
-        "imageSrc": "/rooms/room1.jpg",
+        "imageSrc": "/rooms/room1.webp",
         "alt": "Luxury Garden Room",
         "price": "250",
         "description": "This luxurious and dark room offers a tranquil garden view for a serene experience."
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "title": "Luxury Sea View Room",
-        "imageSrc": "/rooms/room3.jpg",
+        "imageSrc": "/rooms/room3.webp",
         "alt": "Luxury Sea View Room",
         "price": "300",
         "description": "This elegantly designed room offers stunning sea views and ultimate comfort."
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "title": "City View Economy Room",
-        "imageSrc": "/rooms/room4.jpg",
+        "imageSrc": "/rooms/room4.webp",
         "alt": "City View Economy Room",
         "price": "110",
         "description": "This affordable room provides a bustling city view for urban adventurers."
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "title": "Luxury Suite",
-       "imageSrc": "/rooms/room5.jpg",
+       "imageSrc": "/rooms/room5.webp",
         "alt": "Luxury Suite",
         "price": "400",
         "description": "This expansive suite offers unmatched luxury and a premium stay experience."
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "title": "Twin Bed Economy Room",
-        "imageSrc": "/rooms/room6.jpg",
+        "imageSrc": "/rooms/room6.webp",
         "alt": "Twin Bed Economy Room",
         "price": "120",
         "description": "This budget-friendly room features two single beds, perfect for friends or family members traveling together."
@@ -42,7 +42,7 @@
     {
         "id": 6,
         "title": "Bright Economy Room",
-        "imageSrc": "/rooms/room2.jpg",
+        "imageSrc": "/rooms/room2.webp",
         "alt": "Bright Economy Room",
         "price": "120",
         "description": "This brightly lit room offers a simple yet cozy stay for budget-conscious travelers."
