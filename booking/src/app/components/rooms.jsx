@@ -44,9 +44,8 @@ function RoomBox() {
                   src={room.imageSrc}
                   alt={`Luxury room with ${room.description}`}
                   priority={false}
-                  layout="fill"
-                  objectFit="cover"
-                  objectPosition="center"
+                  fill
+                  style={{ objectFit: 'cover', objectPosition: 'center' }}
                 />
               </div>
 

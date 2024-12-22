@@ -33,6 +33,11 @@ function Main() {
                 <meta property="og:url" content="https://hotelparadise.example.com" />
                 <meta name="twitter:card" content="summary_large_image" />
                 <link rel="canonical" href="https://hotelparadise.example.com" />
+        
+
+
+
+
             </Head>
             <main className="w-full">
                 <section>
@@ -40,9 +45,12 @@ function Main() {
                         <Image
                             src={view}
                             alt="hotel"
+                            fill
                             priority
-                            layout="fill"
-                            objectFit="cover"
+                            style={{ objectFit: 'cover' }}
+                       
+                            
+
                         />
                         <div className="absolute top-1/3 sm:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white font-lora">
                             <div className="flex flex-col items-center gap-6">

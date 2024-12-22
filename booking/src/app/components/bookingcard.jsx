@@ -34,9 +34,8 @@ function Bookingcard() {
               <Image
                 src={view}
                 alt="hotel"
-                layout="fill"
-                objectFit="cover"
-                objectPosition="top"
+                fill
+                style={{ objectFit: 'cover', objectPosition: 'center' }}
                 priority={false}
               />
             </div>
