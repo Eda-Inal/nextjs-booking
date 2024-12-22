@@ -1,12 +1,30 @@
 import React from "react";
 import Image from "next/image";
 import foodData from "../../../public/data/food-data.json"
+import Head from "next/head";
 
 
 function Food() {
 
   return (
-    <div className="flex flex-col gap-6">
+    <>
+     <Head>
+        <title>Hotel Paradise - Our Restaurant</title>
+        <meta
+          name="description"
+          content="Discover the exquisite menu at Hotel Paradise. Enjoy a variety of gourmet dishes made with fresh ingredients."
+        />
+        <meta name="keywords" content="restaurant, hotel paradise, gourmet, food, dining, menu" />
+        <meta property="og:title" content="Hotel Paradise - Restaurant Menu" />
+        <meta
+          property="og:description"
+          content="Explore the delightful dishes at Hotel Paradise restaurant. Enjoy a range of mouth-watering meals prepared to perfection."
+        />
+        <meta property="og:image" content="/images/restaurant.jpg" />
+        <meta property="og:url" content="https://hotelparadise.example.com/restaurant" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Head>
+      <div className="flex flex-col gap-6">
       <h4 className="text-2xl text-center">Our Restaurant</h4>
       <div className=" overflow-x-auto flex space-x-4 scrollbar-hide snap-x snap-mandatory px-4">
         {foodData.map((item) => (
@@ -37,6 +55,8 @@ function Food() {
         ))}
       </div>
     </div>
+    </>
+  
   );
 }
 

@@ -1,9 +1,30 @@
 import React from 'react'
 import Image from 'next/image';
 import view from "../../../public/view.jpg";
+import Head from 'next/head';
 
 function Bookingcard() {
   return (
+ <>
+       <Head>
+        <title>Hotel Paradise - About Our Hotel</title>
+        <meta
+          name="description"
+          content="Discover more about Hotel Paradise, offering world-class service, luxury accommodations, and stunning beach views. Book your stay now."
+        />
+        <meta
+          name="keywords"
+          content="hotel, luxury, beach views, golden key hotel, best hotels, reserve room"
+        />
+        <meta property="og:title" content="Hotel Paradise - About Our Hotel" />
+        <meta
+          property="og:description"
+          content="Learn about the luxurious Golden Key Hotel, recommended by travelers worldwide for its exceptional service and stunning accommodations."
+        />
+        <meta property="og:image" content="/images/hotel.jpg" />
+        <meta property="og:url" content="https://hotelparadise.example.com/about" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Head>
     <div className='flex flex-col gap-6'>
       <h5 className='text-2xl text-center'>About Our Hotel</h5>
       <div className="flex overflow-x-auto gap-4 mx-auto  scrollbar-hide px-4">
@@ -54,6 +75,7 @@ function Bookingcard() {
 
       </div>
     </div>
+ </>
 
 
   )
