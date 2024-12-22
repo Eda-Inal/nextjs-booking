@@ -60,20 +60,19 @@ function Main() {
                 </div>
 
 
-                <div className="px-10 mt-36 sm:mt-28 lg:mt-20 relative z-0 mx-auto mb-12">
-                    <Explore />
+                <div className="px-10 mt-36 sm:mt-28 lg:mt-20 relative z-0 mx-auto mb-20">
+
 
                 </div>
 
 
-                <div className="w-full overflow-x-auto  scrollbar-hide">
+                <div className="w-full overflow-x-auto  scrollbar-hide flex flex-col gap-20">
+                    <Explore />
                     <RoomBox />
                     <Food />
-                </div>
-                <div className='mt-12' >
                     <Bookingcard />
-                </div>
 
+                </div>
                 <div className="mb-24"></div>
             </main>
 

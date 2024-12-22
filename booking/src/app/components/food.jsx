@@ -6,13 +6,8 @@ import foodData from "../../../public/data/food-data.json"
 function Food() {
 
   return (
-    <div className="mt-12">
-
-   
-        <h4 className="text-2xl text-center mb-12">Our Restaurant</h4>
-    
-
-
+    <div className="flex flex-col gap-6">
+      <h4 className="text-2xl text-center">Our Restaurant</h4>
       <div className=" overflow-x-auto flex space-x-4 scrollbar-hide snap-x snap-mandatory px-4">
         {foodData.map((item) => (
           <div
