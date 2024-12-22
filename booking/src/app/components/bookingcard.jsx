@@ -4,7 +4,7 @@ import view from "../../../public/view.jpg";
 
 function Bookingcard() {
   return (
-    <div className="flex overflow-x-auto gap-4 mx-auto  scrollbar-hide">
+    <div className="flex overflow-x-auto gap-4 mx-auto  scrollbar-hide px-4">
       {[...Array(5)].map((_, index) => (
         <div key={index} className="relative bg-white shadow-lg flex flex-col w-96 flex-shrink-0">
           <div className="relative h-48 w-full">

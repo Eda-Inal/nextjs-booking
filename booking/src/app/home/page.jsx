@@ -66,11 +66,11 @@ function Main() {
                 </div>
 
 
-                <div className="w-full overflow-x-auto pl-10 scrollbar-hide">
+                <div className="w-full overflow-x-auto  scrollbar-hide">
                     <RoomBox />
                     <Food />
                 </div>
-                <div className='mt-12 pl-10' >
+                <div className='mt-12' >
                     <Bookingcard />
                 </div>
 

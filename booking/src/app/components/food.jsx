@@ -9,11 +9,11 @@ function Food() {
     <div className="mt-12">
 
    
-        <h4 className="text-2xl text-center">Our Restaurant</h4>
+        <h4 className="text-2xl text-center mb-12">Our Restaurant</h4>
     
 
 
-      <div className="mt-6 overflow-x-auto flex space-x-4 scrollbar-hide snap-x snap-mandatory px-4">
+      <div className=" overflow-x-auto flex space-x-4 scrollbar-hide snap-x snap-mandatory px-4">
         {foodData.map((item) => (
           <div
             key={item.id}
