@@ -67,13 +67,23 @@ function Main() {
 
 
                 <div className="w-full overflow-x-auto  scrollbar-hide flex flex-col gap-20">
-                    <Explore />
-                    <RoomBox />
+                  
+                    <div id="services" className='scroll-mt-[80px]'>
+                       <Explore /> 
+                    </div>
+                    <div id="rooms" className='scroll-mt-[80px]'>
+                       <RoomBox /> 
+                    </div>
+                    <div id="restaurant" className='scroll-mt-[80px]'>
                     <Food />
+                    </div>
+                    <div id="about" className='scroll-mt-[80px]'>
                     <Bookingcard />
+                    </div>
+                    
 
                 </div>
-                <div className="mb-24"></div>
+                <div className="mb-56"></div>
             </main>
 
         </>

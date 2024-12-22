@@ -4,7 +4,7 @@ import exploreData from "../../../public/data/datas.json"
 
 function Explore() {
     return (
-        <section className='mt-12 '>
+        <section className='mt-20 '>
 
             <h2 className='text-2xl text-center font-bitter mb-6 '>Explore Our Hotel Services</h2>
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4  '>
