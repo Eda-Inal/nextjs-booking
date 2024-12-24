@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import roomsData from "../../../public/data/rooms.json"
-import Head from "next/head";
 
 function RoomBox() {
   return (

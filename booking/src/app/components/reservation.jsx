@@ -1,11 +1,10 @@
 import React from 'react'
-import Head from 'next/head';
 
 function Reservation() {
     return (
 
         <>
-         
+
 
             <div className='bg-white p-4 h-64 sm:h-40  md:h-24 rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  gap-6 place-items-center font-bitter'>
                 <div className='relative w-full'>

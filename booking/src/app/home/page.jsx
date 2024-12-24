@@ -1,11 +1,11 @@
 import React from 'react';
-import Head from 'next/head';
 import Image from "next/image";
 import Reservation from '../components/reservation';
 import Explore from '../components/explore';
 import Food from '../components/food';
 import RoomBox from '../components/rooms';
 import view from "../../../public/vieww.webp";
+import About from '../components/aboutcard';
 
 
 
@@ -22,8 +22,8 @@ function Main() {
                             fill
                             priority
                             style={{ objectFit: 'cover' }}
-                       
-                            
+
+
 
                         />
                         <div className="absolute top-1/3 sm:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white font-lora">
@@ -59,7 +59,10 @@ function Main() {
                     <section id="restaurant" className='scroll-mt-[80px]'>
                         <Food />
                     </section>
-               
+                    <section>
+                        <About />
+                    </section>
+
 
 
                 </div>

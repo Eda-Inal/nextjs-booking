@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import exploreData from "../../../public/data/datas.json"
-import Head from 'next/head';
 
 function Explore() {
     return (

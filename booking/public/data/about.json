@@ -1,0 +1,46 @@
+[
+    
+      {
+        "id": 1,
+        "title": "Sunset Yoga Sessions",
+        "description": "Join us for a peaceful yoga session as the sun sets over the horizon. Our expert instructor will guide you through relaxing poses, perfect for all skill levels.",
+        "imageSrc": "/about/yoga.jpg",
+        "imageAlt": "Yoga instructor leading a sunset session on the beach",
+        "time": "Open Daily: 6 PM - 7 PM"
+      },
+      {
+        "id": 2,
+        "title": "Swimming Pool",
+        "description": "Take a dip in our luxurious swimming pool, perfect for a refreshing swim or a relaxing lounge by the water. Poolside drinks and snacks are available.",
+      "imageSrc": "/about/pool.jpg",
+        "imageAlt": "Guests relaxing by a beautiful swimming pool under the sun",
+        "time": "Open Daily: 7 AM - 9 PM"
+      },
+      {
+        "id": 3,
+        "title": "Dolphin Show",
+        "description": "Experience the joy of watching dolphins perform incredible tricks. This family-friendly event will leave you in awe as our dolphins showcase their skills.",
+       "imageSrc": "/about/dolphin.jpg",
+        "imageAlt": "A dolphin performing a jump during a show",
+        "time": "Open Daily: 10 AM - 12 PM"
+      },
+      {
+        "id": 4,
+        "title": "Private Beach Access",
+        "description": "Relax and unwind at our exclusive beach. Enjoy crystal clear waters, soft sands, and the perfect spot for sunbathing or a refreshing swim.",
+      "imageSrc": "/about/beach.jpg",
+        "imageAlt": "Guests lounging on a private beach with crystal clear water",
+        "time": "Open Daily: 8 AM - 8 PM"
+      },
+      {
+        "id": 5,
+        "title": "Karaoke Night",
+        "description": "Show off your singing skills at our lively Karaoke Night. Choose from an extensive list of songs and enjoy a fun evening with fellow guests.",
+        "imageSrc": "/about/karaoke.jpg",
+        "imageAlt": "Guests enjoying a night of karaoke with a microphone and stage",
+        "time": "Open Daily: 9 PM - 12 AM"
+      }
+     
+    
+    ]
+  

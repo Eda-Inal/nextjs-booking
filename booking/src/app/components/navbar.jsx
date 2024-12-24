@@ -24,9 +24,8 @@ function Navbar() {
     return (
         <header>
             <nav
-                className={`font-bitter py-4 fixed top-0 left-0 w-full z-20 transition-colors duration-300 ${
-                    isScrolled ? 'bg-primary text-white shadow-md' : 'bg-black/50 text-white'
-                }`}
+                className={`font-bitter py-4 fixed top-0 left-0 w-full z-20 transition-colors duration-300 ${isScrolled ? 'bg-primary text-white shadow-md' : 'bg-black/50 text-white'
+                    }`}
             >
                 <div className="flex mx-auto items-center sm:justify-around justify-between px-2 sm:px-0">
                     <Link href="/" passHref className="text-xl font-bold">
