@@ -11,7 +11,24 @@ function Food() {
    
       <div className="flex flex-col gap-6">
       <h4 className="text-2xl text-center">Our Restaurant</h4>
-      <div className=" overflow-x-auto flex space-x-4 scrollbar-hide snap-x snap-mandatory px-4">
+      <div className="relative">
+      <button className="absolute left-[-12px] top-1/2 transform -translate-y-1/2 bg-primary text-white rounded-full p-1 z-10">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M15 19l-7-7 7-7"
+            />
+          </svg>
+        </button>
+      <div className=" overflow-x-auto flex space-x-4 scrollbar-hide snap-x snap-mandatory ">
         {foodData.map((item) => (
           <div
             key={item.id}
@@ -38,6 +55,24 @@ function Food() {
             </div>
           </div>
         ))}
+     
+      </div>
+      <button className="absolute right-[-12px] top-1/2 transform -translate-y-1/2 bg-primary text-white rounded-full p-1 z-10">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M9 5l7 7-7 7"
+            />
+          </svg>
+        </button>
       </div>
     </div>
     </>

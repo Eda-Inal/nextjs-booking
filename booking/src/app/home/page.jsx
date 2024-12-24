@@ -3,7 +3,6 @@ import Head from 'next/head';
 import Image from "next/image";
 import Reservation from '../components/reservation';
 import Explore from '../components/explore';
-import Bookingcard from '../components/bookingcard';
 import Food from '../components/food';
 import RoomBox from '../components/rooms';
 import view from "../../../public/vieww.webp";
@@ -49,7 +48,7 @@ function Main() {
                 </div>
 
 
-                <div className="w-full overflow-x-auto  scrollbar-hide flex flex-col gap-20">
+                <div className="w-full overflow-x-auto  scrollbar-hide flex flex-col gap-20 lg:px-28 px-5">
 
                     <section id="services" className='scroll-mt-[80px]'>
                         <Explore />
@@ -60,9 +59,7 @@ function Main() {
                     <section id="restaurant" className='scroll-mt-[80px]'>
                         <Food />
                     </section>
-                    <section id="about" className='scroll-mt-[80px]'>
-                        <Bookingcard />
-                    </section>
+               
 
 
                 </div>
