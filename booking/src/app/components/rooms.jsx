@@ -14,7 +14,7 @@ function RoomBox() {
           </h3>
         </div>
         <div className="relative">
-        <button className="absolute left-[-12px] top-1/2 transform -translate-y-1/2 bg-primary text-white rounded-full p-2 z-10">
+        <button className="absolute left-[-12px] top-1/2 transform -translate-y-1/2 bg-primary text-white rounded-full p-2 z-10"  aria-label="Scroll left">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6"
@@ -63,7 +63,7 @@ function RoomBox() {
   </div>
 ))}
 </div>
-<button className="absolute right-[-12px] top-1/2 transform -translate-y-1/2 bg-primary text-white rounded-full p-2 z-10">
+<button className="absolute right-[-12px] top-1/2 transform -translate-y-1/2 bg-primary text-white rounded-full p-2 z-10" aria-label="Scroll right">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6"

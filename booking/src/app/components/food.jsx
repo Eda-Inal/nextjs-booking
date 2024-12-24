@@ -12,7 +12,7 @@ function Food() {
       <div className="flex flex-col gap-6">
       <h4 className="text-2xl text-center">Our Restaurant</h4>
       <div className="relative">
-      <button className="absolute left-[-12px] top-1/2 transform -translate-y-1/2 bg-primary text-white rounded-full p-1 z-10">
+      <button className="absolute left-[-12px] top-1/2 transform -translate-y-1/2 bg-primary text-white rounded-full p-1 z-10"  aria-label="Scroll left">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6"
@@ -57,7 +57,7 @@ function Food() {
         ))}
      
       </div>
-      <button className="absolute right-[-12px] top-1/2 transform -translate-y-1/2 bg-primary text-white rounded-full p-1 z-10">
+      <button className="absolute right-[-12px] top-1/2 transform -translate-y-1/2 bg-primary text-white rounded-full p-1 z-10"aria-label="Scroll right">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6"
