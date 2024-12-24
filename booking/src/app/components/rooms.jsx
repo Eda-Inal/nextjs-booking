@@ -6,25 +6,7 @@ import Head from "next/head";
 function RoomBox() {
   return (
     <>
-      <Head>
-        <title>Hotel Paradise - Elegant Rooms for Every Guest</title>
-        <meta
-          name="description"
-          content="Discover our elegant and luxurious rooms at Hotel Paradise. From beach views to cozy interiors, find the perfect room for your stay."
-        />
-        <meta
-          name="keywords"
-          content="hotel rooms, luxury rooms, beach view, cozy rooms, booking, stay"
-        />
-        <meta property="og:title" content="Hotel Paradise - Elegant Rooms for Every Guest" />
-        <meta
-          property="og:description"
-          content="Explore a variety of elegant rooms with stunning views and luxurious amenities at Hotel Paradise."
-        />
-        <meta property="og:image" content="/images/rooms.jpg" />
-        <meta property="og:url" content="https://hotelparadise.example.com/rooms" />
-        <meta name="twitter:card" content="summary_large_image" />
-      </Head>
+    
       <div className="flex flex-col gap-6">
         <div>
           <h3 className="text-2xl text-center">

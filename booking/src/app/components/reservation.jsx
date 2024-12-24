@@ -5,25 +5,7 @@ function Reservation() {
     return (
 
         <>
-            <Head>
-                <title>Book Your Stay at Hotel Paradise | Reservation</title>
-                <meta
-                    name="description"
-                    content="Reserve your luxurious stay at Hotel Paradise. Choose your arrival and departure dates, select the number of people, and find the perfect room for your vacation."
-                />
-                <meta
-                    name="keywords"
-                    content="hotel reservation, luxury stay, booking, vacation, hotel rooms"
-                />
-                <meta property="og:title" content="Book Your Stay at Hotel Paradise" />
-                <meta
-                    property="og:description"
-                    content="Reserve your luxurious stay at Hotel Paradise. Find the best rooms, check availability, and book your perfect vacation."
-                />
-                <meta property="og:image" content="/reservation-image.jpg" />
-                <meta property="og:url" content="https://hotelparadise.example.com/reservation" />
-                <meta name="twitter:card" content="summary_large_image" />
-            </Head>
+         
 
             <div className='bg-white p-4 h-64 sm:h-40  md:h-24 rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  gap-6 place-items-center font-bitter'>
                 <div className='relative w-full'>
