@@ -36,6 +36,7 @@ function Navbar() {
                         <button
                             className="text-white focus:outline-none"
                             onClick={toggleMenu}
+                            aria-label={isOpen ? "Close menu" : "Open menu"}
                         >
                             {isOpen ? (
                                 <svg
