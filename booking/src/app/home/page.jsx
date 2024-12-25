@@ -36,7 +36,7 @@ function Main() {
                                 </button>
                             </div>
                         </div>
-                        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 w-full px-10 shadow-lg z-10">
+                        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 w-full  shadow-lg z-10 lg:px-20 px-5">
                             <Reservation />
                         </div>
                     </div>
@@ -48,7 +48,7 @@ function Main() {
                 </div>
 
 
-                <div className="w-full overflow-x-auto  scrollbar-hide flex flex-col gap-20 lg:px-28 px-5">
+                <div className="w-full overflow-x-auto  scrollbar-hide flex flex-col gap-20 lg:px-20 px-5">
 
                     <section id="services" className='scroll-mt-[80px]'>
                         <Explore />
