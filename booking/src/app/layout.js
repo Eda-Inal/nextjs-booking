@@ -1,7 +1,7 @@
 import { Inter, Bitter, Lora,Sacramento ,Dancing_Script } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar";
-import Head from "next/head";
+import Footer from "./components/footer";
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
@@ -33,6 +33,7 @@ export default function RootLayout({ children }) {
       >
         <Navbar/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

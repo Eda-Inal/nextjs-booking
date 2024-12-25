@@ -66,7 +66,7 @@ function Main() {
 
 
                 </div>
-                <div className="mb-56"></div>
+                <div className="mb-20"></div>
             </main>
 
         </>

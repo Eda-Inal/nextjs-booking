@@ -55,7 +55,7 @@ function Reservation() {
                     </div>
                 </div>
                 <button
-                    className='rounded-full w-full h-10 sm:h-8 lg:h-10 bg-gradient-to-r from-[#96d782] to-[#577f4b] text-white text-xl font-bitter shadow-md hover:shadow-lg transition-all'
+                    className='rounded-full w-full h-10 sm:h-8 lg:h-10  text-white bg-gradient-to-r from-[#9c7365] to-[#50352c]  text-xl font-bitter shadow-md hover:shadow-lg transition-all'
                 >
                     Find now
                 </button>
