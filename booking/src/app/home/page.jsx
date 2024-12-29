@@ -31,9 +31,12 @@ function Main() {
                                 <h1 className="text-2xl sm:text-3xl lg:text-4xl mt-12 sm:mt-0 text-center font-bold">
                                     Feel Like in Paradise
                                 </h1>
-                                <button className="p-2 px-4 border-2 rounded-md text-sm lg:text-lg 'scroll-mt-[80px]" >
-                                    <a href="#rooms"> Check the Rooms</a>
-                                </button>
+                                <a
+                                    href="#rooms"
+                                    className="p-2 px-4 border rounded-md text-sm lg:text-lg inline-block text-center  bg-black/50">
+                                    Check the Rooms
+                                </a>
+
                             </div>
                         </div>
                         <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 w-full  shadow-lg z-10 lg:px-20 px-5">
