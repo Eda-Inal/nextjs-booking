@@ -31,8 +31,8 @@ function Main() {
                                 <h1 className="text-2xl sm:text-3xl lg:text-4xl mt-12 sm:mt-0 text-center font-bold">
                                     Feel Like in Paradise
                                 </h1>
-                                <button className="p-2 px-4 border-2 rounded-md text-sm lg:text-lg">
-                                    Check the Rooms
+                                <button className="p-2 px-4 border-2 rounded-md text-sm lg:text-lg 'scroll-mt-[80px]" >
+                                    <a href="#rooms"> Check the Rooms</a>
                                 </button>
                             </div>
                         </div>
@@ -48,24 +48,21 @@ function Main() {
                 </div>
 
 
-                <div className="w-full overflow-x-auto  scrollbar-hide flex flex-col gap-20 lg:px-20 px-5">
-
-                    <section id="services" className='scroll-mt-[80px]'>
+                <section id="main-content" className="w-full overflow-x-auto scrollbar-hide flex flex-col gap-20 lg:px-20 px-5">
+                    <div id="services" className='scroll-mt-[80px]'>
                         <Explore />
-                    </section>
-                    <section id="rooms" className='scroll-mt-[80px]'>
+                    </div>
+                    <div id="rooms" className='scroll-mt-[80px]'>
                         <RoomBox />
-                    </section>
-                    <section id="restaurant" className='scroll-mt-[80px]'>
+                    </div>
+                    <div id="restaurant" className='scroll-mt-[80px]'>
                         <Food />
-                    </section>
-                    <section>
+                    </div>
+                    <div id="about" className='scroll-mt-[80px]'>
                         <About />
-                    </section>
+                    </div>
+                </section>
 
-
-
-                </div>
                 <div className="mb-20"></div>
             </main>
 
