@@ -22,6 +22,7 @@ function Main() {
                             fill
                             priority
                             style={{ objectFit: 'cover' }}
+                            quality={75}
 
 
 
