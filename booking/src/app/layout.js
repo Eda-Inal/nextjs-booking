@@ -5,21 +5,25 @@ import Footer from "./components/footer";
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
+  display: "swap"
 });
 
 const bitter = Bitter({
   variable: "--font-bitter",
   subsets: ["latin"],
+  display: "swap"
 });
 
 const lora = Lora({
   variable: "--font-lora",
   subsets: ["latin"],
+  display: "swap"
 });
 const sacramento = Sacramento({
   variable: "--font-sacramento",
   subsets: ["latin"],
-   weight: "400"
+   weight: "400",
+   display: "swap"
 });
 
 
