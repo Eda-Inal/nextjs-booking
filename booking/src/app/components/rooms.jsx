@@ -37,13 +37,14 @@ function RoomBox() {
     className="relative bg-white shadow-lg flex flex-col w-80 h-96 shrink-0 snap-center rounded-md transform transition-transform duration-300 hover:scale-105"
   >
 
-    <div className="relative h-48 w-full rounded-t-md overflow-hidden">
+    <div className="relative h-48 w-full  rounded-t-md overflow-hidden">
       <Image
         src={room.imageSrc}
         alt={`Luxury room with ${room.description}`}
         priority={false}
         fill
         style={{ objectFit: 'cover', objectPosition: 'center' }}
+        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" 
       />
     </div>
 

@@ -6,6 +6,7 @@ import Food from '../components/food';
 import RoomBox from '../components/rooms';
 import view from "../../../public/vieww.webp";
 import About from '../components/aboutcard';
+import Head from 'next/head';
 
 
 
@@ -13,16 +14,20 @@ function Main() {
 
     return (
         <>
+        <Head>
+        <link rel="preload" href="/vieww.webp" as="image" />
+      </Head>
             <main className="w-full">
                 <section>
                     <div className="w-full h-[450px] relative">
                         <Image
-                            src={view}
+                           src="/vieww.webp" 
                             alt="hotel"
                             fill
                             priority
                             style={{ objectFit: 'cover' }}
-                            quality={75}
+                            quality={50}
+                           blurDataURL='/vieww.webp'
 
 
 
