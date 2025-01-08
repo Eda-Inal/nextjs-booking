@@ -5,7 +5,7 @@ import exploreData from "../../../public/data/datas.json"
 function Explore() {
     return (
         <>
-          
+
             <div className='mt-20 '>
 
                 <h2 className='text-2xl text-center font-bitter mb-6 '>Explore Our Hotel Services</h2>

@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="w-full text-white py-4 px-4 bg-gradient-to-r from-[#905e52] via-[#7c4a3e] to-[#50352c]" >
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start  space-y-4 md:space-y-0">
-     
+
         <div>
           <h2 className="text-2xl font-bold">GoldenKey</h2>
           <p className="text-sm mt-2">
@@ -13,7 +13,7 @@ function Footer() {
           </p>
         </div>
 
-      
+
         <div className="space-y-2">
           <h3 className="text-lg font-semibold">Quick Links</h3>
           <ul className="space-y-1 text-sm">
@@ -32,7 +32,7 @@ function Footer() {
           </ul>
         </div>
 
-      
+
         <div className="space-y-2">
           <h3 className="text-lg font-semibold">Follow Us</h3>
           <div className="flex space-x-4">
@@ -49,7 +49,7 @@ function Footer() {
         </div>
       </div>
 
-   
+
       <div className="mt-8 text-center text-sm border-t border-gray-500 pt-4">
         © {new Date().getFullYear()} GoldenKey. All rights reserved.
         <div className="mt-4 flex justify-center space-x-4">
