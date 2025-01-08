@@ -26,5 +26,5 @@ The site has been optimized for SEO, with proper meta tags, title tags, and cont
 
 ## Project Screenshot
 
-![Hotel Booking App Screen![nextjs-booking](https://github.com/user-attachments/assets/750cef40-3207-4fad-9c3f-3f4f280fb240)
+![nextjs-booking](https://github.com/user-attachments/assets/750cef40-3207-4fad-9c3f-3f4f280fb240)
 
