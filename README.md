@@ -5,7 +5,7 @@ This is a simple hotel booking website built with Next.js. It's a demo site for 
 ## Features
 
 - **Single Page Application (SPA)**: The site is designed as a single-page application, which ensures faster navigation and smoother user experience.
-- **Mobile-Friendly Navbar**: A toggle-based mobile navbar for easy navigation on smaller screens.
+- **Responsive Design**: Fully responsive layout for a smooth experience on all devices.
 - **Horizontal Scrolling for Room Selection**: Following the common trend in booking sites, rooms are displayed in a horizontally scrollable container.
 - **Image Optimization**: Images are optimized for performance. Unnecessary large images are resized and WebP format is used where applicable.
 - **SVG Icons**: To avoid performance issues, all icons are implemented as SVGs.
