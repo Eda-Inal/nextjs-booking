@@ -19,13 +19,6 @@ This is a simple hotel booking website built with Next.js. It's a demo site for 
 - **SVG**: Used for icons to reduce the page load time and improve performance.
 - **WebP**: Optimized image format used for better performance and faster loading times.
 
-## Project Structure
-
-- `app/`: Contains the main structure of the site following Next.js App Directory format.
-- `components/`: Reusable components like Navbar and RoomBox.
-- `public/`: Static assets such as images and icons.
-- `styles/`: Global styles for the site.
-- `data/`: JSON file for room data.
 
 ## SEO
 
