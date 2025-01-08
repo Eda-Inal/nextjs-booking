@@ -65,18 +65,14 @@ function Reservation() {
                         </svg>
                     </div>
                 </div> <div className='relative w-full'>
-                    <DatePicker
-                        customInput={
-                            <input
-                                className='rounded-full bg-gray-100 w-full h-8 lg:h-10 outline-none text-md px-4 flex justify-between text-black'
-                                type="text"
-                                placeholder='Person'
-                            />
-                        }
-                        dateFormat="yyyy-MM-dd"
-                        wrapperClassName="w-full"
-                        placeholderText='Person'
+
+                    <input
+                        className='rounded-full bg-gray-100 w-full h-8 lg:h-10 outline-none text-md px-4 flex justify-between text-black'
+                        type="text"
+                        placeholder='Person'
                     />
+
+
                     <div className='absolute inset-y-0 right-3 flex items-center group'>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
