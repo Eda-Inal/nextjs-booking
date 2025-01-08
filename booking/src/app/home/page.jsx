@@ -20,7 +20,7 @@ function Main() {
                 <section>
                     <div className="w-full h-[450px] relative">
                         <Image
-                            src="/vieww.webp"
+                            src="/imgg.jpg"
                             alt="hotel"
                             fill
                             priority
