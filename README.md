@@ -23,3 +23,8 @@ This is a simple hotel booking website built with Next.js. It's a demo site for 
 ## SEO
 
 The site has been optimized for SEO, with proper meta tags, title tags, and content structure to ensure search engine crawlers can properly index the site. Semantic HTML tags are used to establish a clear content hierarchy.
+
+## Project Screenshot
+
+![Hotel Booking App Screen![nextjs-booking](https://github.com/user-attachments/assets/750cef40-3207-4fad-9c3f-3f4f280fb240)
+
