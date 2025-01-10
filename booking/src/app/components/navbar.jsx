@@ -3,20 +3,20 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 function Navbar() {
-    const [isScrolled, setIsScrolled] = useState(false);
+    // const [isScrolled, setIsScrolled] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
 
 
-    useEffect(() => {
-        const handleScroll = () => {
-            setIsScrolled(window.scrollY > 0);
-        };
+    // useEffect(() => {
+    //     const handleScroll = () => {
+    //         setIsScrolled(window.scrollY > 0);
+    //     };
 
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
+    //     window.addEventListener('scroll', handleScroll);
+    //     return () => {
+    //         window.removeEventListener('scroll', handleScroll);
+    //     };
+    // }, []);
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
@@ -25,7 +25,7 @@ function Navbar() {
     return (
         <header>
             <nav
-                className={`font-bitter py-4 fixed top-0 left-0 w-full z-20 transition-colors duration-300 ${isScrolled ? 'bg-primary text-white shadow-md' : 'bg-black/50 text-white'
+                className={`font-bitter py-4 fixed top-0 left-0 w-full z-20 transition-colors duration-300 bg-black/50 text-white
                     }`}
             >
                 <div className="flex mx-auto items-center sm:justify-around justify-between px-2 sm:px-0">

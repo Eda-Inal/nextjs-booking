@@ -4,7 +4,6 @@ import Explore from '../components/explore';
 import Food from '../components/food';
 import RoomBox from '../components/rooms';
 import About from '../components/aboutcard';
-import Head from 'next/head';
 
 
 
