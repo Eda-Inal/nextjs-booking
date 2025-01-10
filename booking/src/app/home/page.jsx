@@ -13,6 +13,14 @@ function Main() {
 
     return (
         <>
+           <Head>
+                <link 
+                    rel="preload" 
+                    as="image" 
+                    href="/vieww.webp" 
+                    fetchpriority="high" 
+                />
+            </Head>
             <main className="w-full">
                 <section>
                     <div className="w-full h-[450px] relative">
