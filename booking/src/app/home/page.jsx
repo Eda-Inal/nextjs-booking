@@ -1,5 +1,3 @@
-'use client'
-import { useState, useEffect } from 'react';
 import React from 'react';
 import Image from "next/image";
 import Reservation from '../components/reservation';
@@ -12,35 +10,20 @@ import Head from 'next/head';
 
 
 function Main() {
-    const [isMobile, setIsMobile] = useState(false);
-
-    useEffect(() => {
-        const handleResize = () => {
-            setIsMobile(window.innerWidth <= 768);
-        };
-
-        handleResize();
-        window.addEventListener('resize', handleResize);
-
-        return () => window.removeEventListener('resize', handleResize);
-    }, []);
 
     return (
         <>
-            <Head>
-                <link rel="preload" href="/vieww.webp" as="image" />
-            </Head>
             <main className="w-full">
                 <section>
                     <div className="w-full h-[450px] relative">
                         <Image
-                            src={isMobile ? '/mobile.webp' : '/newimg.webp'}
+                            src="/vieww.webp"
                             alt="hotel"
                             fill
                             priority
                             style={{ objectFit: 'cover' }}
                             quality={50}
-                
+                            blurDataURL='/vieww.webp'
 
 
 
