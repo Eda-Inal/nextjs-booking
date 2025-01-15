@@ -13,7 +13,7 @@ function Main() {
         <>
             <main className="w-full">
 
-                {/* <HeroSection /> */}
+                <HeroSection />
                 <div className="px-10 mt-36 sm:mt-28 lg:mt-20 relative z-0 mx-auto mb-20">
 
 
