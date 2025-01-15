@@ -10,19 +10,19 @@ function HeroSection() {
                 <link
                     rel="preload"
                     as="image"
-                    href="/vieww.webp"
+                    href="/viewimg.webp"
                     fetchpriority="high"
                 />
             </Head>
             <section>
                 <div className="w-full h-[450px] relative">
                     <Image
-                        src="/vieww.webp"
+                        src="/viewimg.webp"
                         alt="hotel"
                         fill
                         priority
                         style={{ objectFit: 'cover' }}
-                        quality={50}
+                        quality={20}
 
 
 
