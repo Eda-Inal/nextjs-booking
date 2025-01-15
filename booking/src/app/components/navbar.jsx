@@ -1,22 +1,9 @@
 'use client'
-import React, { useState, useEffect } from 'react';
+import React, {useState} from 'react';
 import Link from 'next/link';
 
 function Navbar() {
-    // const [isScrolled, setIsScrolled] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
-
-
-    // useEffect(() => {
-    //     const handleScroll = () => {
-    //         setIsScrolled(window.scrollY > 0);
-    //     };
-
-    //     window.addEventListener('scroll', handleScroll);
-    //     return () => {
-    //         window.removeEventListener('scroll', handleScroll);
-    //     };
-    // }, []);
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);

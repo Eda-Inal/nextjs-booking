@@ -23,7 +23,6 @@ function HeroSection() {
                         priority
                         style={{ objectFit: 'cover' }}
                         quality={50}
-                        blurDataURL='/vieww.webp'
 
 
 

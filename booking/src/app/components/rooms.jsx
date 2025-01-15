@@ -41,7 +41,6 @@ function RoomBox() {
                   <Image
                     src={room.imageSrc}
                     alt={`Luxury room with ${room.description}`}
-                    priority={false}
                     fill
                     style={{ objectFit: 'cover', objectPosition: 'center' }}
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
